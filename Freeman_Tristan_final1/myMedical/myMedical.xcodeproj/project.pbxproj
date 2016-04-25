@@ -1,0 +1,617 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DF06E005183D0CD8000A06F1 /* MM-icon.png in Resources */ = {isa = PBXBuildFile; fileRef = DF06E004183D0CD8000A06F1 /* MM-icon.png */; };
+		DF06E007183D0CDC000A06F1 /* MM-icon-retina.png in Resources */ = {isa = PBXBuildFile; fileRef = DF06E006183D0CDC000A06F1 /* MM-icon-retina.png */; };
+		DF06E009183D114B000A06F1 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = DF06E008183D114B000A06F1 /* Default.png */; };
+		DF181A1A183462B70076AE22 /* medInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = DF181A19183462B70076AE22 /* medInfo.m */; };
+		DF181A1D183575C70076AE22 /* mapAnnotations.m in Sources */ = {isa = PBXBuildFile; fileRef = DF181A1C183575C70076AE22 /* mapAnnotations.m */; };
+		DF2DFD7D182C34AD0038D366 /* Parse.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DF2DFD7C182C34AD0038D366 /* Parse.framework */; };
+		DF2DFD7F182C35A80038D366 /* GoogleMaps.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DF2DFD7E182C35A80038D366 /* GoogleMaps.framework */; };
+		DF3AB4E8183D11F1005B86ED /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = DF3AB4E7183D11F1005B86ED /* Default@2x.png */; };
+		DF3AB4EA183D11F8005B86ED /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = DF3AB4E9183D11F8005B86ED /* Default-568h@2x.png */; };
+		DF653BB7182B12B600A09924 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DF653BB6182B12B600A09924 /* AVFoundation.framework */; };
+		DF653BB9182B12C000A09924 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DF653BB8182B12C000A09924 /* CoreData.framework */; };
+		DF653BBB182B12CD00A09924 /* CoreText.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DF653BBA182B12CD00A09924 /* CoreText.framework */; };
+		DF653BBD182B12D500A09924 /* GLKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DF653BBC182B12D500A09924 /* GLKit.framework */; };
+		DF653BBF182B12DD00A09924 /* ImageIO.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DF653BBE182B12DD00A09924 /* ImageIO.framework */; };
+		DF653BC1182B12EB00A09924 /* libc++.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = DF653BC0182B12EB00A09924 /* libc++.dylib */; };
+		DF653BC3182B12F600A09924 /* libicucore.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = DF653BC2182B12F600A09924 /* libicucore.dylib */; };
+		DF653BC5182B12FF00A09924 /* libz.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = DF653BC4182B12FF00A09924 /* libz.dylib */; };
+		DF653BC7182B130800A09924 /* OpenGLES.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DF653BC6182B130800A09924 /* OpenGLES.framework */; };
+		DF930B46182A92CC007F5727 /* 74-location.png in Resources */ = {isa = PBXBuildFile; fileRef = DF930B45182A92CC007F5727 /* 74-location.png */; };
+		DF930B4A182AAC5A007F5727 /* addMedicationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DF930B48182AAC5A007F5727 /* addMedicationViewController.m */; };
+		DF930B4B182AAC5A007F5727 /* addMedicationViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = DF930B49182AAC5A007F5727 /* addMedicationViewController.xib */; };
+		DF930B4E182AAFCF007F5727 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DF930B4D182AAFCF007F5727 /* MapKit.framework */; };
+		DF930B51182ADDF2007F5727 /* medicationManager.m in Sources */ = {isa = PBXBuildFile; fileRef = DF930B50182ADDF2007F5727 /* medicationManager.m */; };
+		DF9603CD18299E5500B13AA0 /* cancelBtn.png in Resources */ = {isa = PBXBuildFile; fileRef = DF9603CC18299E5500B13AA0 /* cancelBtn.png */; };
+		DF9603D31829B01100B13AA0 /* customCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = DF9603D21829B01100B13AA0 /* customCell.xib */; };
+		DF9603D61829B08E00B13AA0 /* CustomMedicationCell.m in Sources */ = {isa = PBXBuildFile; fileRef = DF9603D51829B08E00B13AA0 /* CustomMedicationCell.m */; };
+		DF9603DA1829CE0C00B13AA0 /* medicationDetailsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DF9603D81829CE0C00B13AA0 /* medicationDetailsViewController.m */; };
+		DF9603DB1829CE0C00B13AA0 /* medicationDetailsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = DF9603D91829CE0C00B13AA0 /* medicationDetailsViewController.xib */; };
+		DF9603E41829CE7000B13AA0 /* pharmacyViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DF9603E21829CE7000B13AA0 /* pharmacyViewController.m */; };
+		DF9603E51829CE7000B13AA0 /* pharmacyViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = DF9603E31829CE7000B13AA0 /* pharmacyViewController.xib */; };
+		DF9603E9182A915700B13AA0 /* 10-medical.png in Resources */ = {isa = PBXBuildFile; fileRef = DF9603E7182A915700B13AA0 /* 10-medical.png */; };
+		DFA50DDB1830B0CE00C4501E /* medListControllerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DFA50DDA1830B0CE00C4501E /* medListControllerViewController.m */; };
+		DFA9402618FF02150074B646 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DFA9402518FF02150074B646 /* Images.xcassets */; };
+		DFD72C73183D12E200576ED6 /* MM-logo.png in Resources */ = {isa = PBXBuildFile; fileRef = DFD72C72183D12E200576ED6 /* MM-logo.png */; };
+		DFD7C3CD18293CF400CB6C89 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DFD7C3CC18293CF400CB6C89 /* UIKit.framework */; };
+		DFD7C3CF18293CF400CB6C89 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DFD7C3CE18293CF400CB6C89 /* Foundation.framework */; };
+		DFD7C3D118293CF400CB6C89 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DFD7C3D018293CF400CB6C89 /* CoreGraphics.framework */; };
+		DFD7C3D718293CF400CB6C89 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = DFD7C3D518293CF400CB6C89 /* InfoPlist.strings */; };
+		DFD7C3D918293CF400CB6C89 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = DFD7C3D818293CF400CB6C89 /* main.m */; };
+		DFD7C3DD18293CF500CB6C89 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = DFD7C3DC18293CF500CB6C89 /* AppDelegate.m */; };
+		DFD7C3E618293CF500CB6C89 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DFD7C3E518293CF500CB6C89 /* ViewController.m */; };
+		DFD7C3E918293CF500CB6C89 /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = DFD7C3E718293CF500CB6C89 /* ViewController.xib */; };
+		DFD7C3F218293D5800CB6C89 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DFD7C3F118293D5800CB6C89 /* AudioToolbox.framework */; };
+		DFD7C3F418293D5E00CB6C89 /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DFD7C3F318293D5E00CB6C89 /* CFNetwork.framework */; };
+		DFD7C3F618293D6900CB6C89 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DFD7C3F518293D6900CB6C89 /* CoreLocation.framework */; };
+		DFD7C3F818293D6F00CB6C89 /* libz.1.1.3.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = DFD7C3F718293D6F00CB6C89 /* libz.1.1.3.dylib */; };
+		DFD7C3FA18293D7600CB6C89 /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DFD7C3F918293D7600CB6C89 /* MobileCoreServices.framework */; };
+		DFD7C3FC18293D7C00CB6C89 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DFD7C3FB18293D7C00CB6C89 /* QuartzCore.framework */; };
+		DFD7C3FE18293D8300CB6C89 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DFD7C3FD18293D8300CB6C89 /* Security.framework */; };
+		DFD7C40018293D8900CB6C89 /* StoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DFD7C3FF18293D8900CB6C89 /* StoreKit.framework */; };
+		DFD7C40218293D8F00CB6C89 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DFD7C40118293D8F00CB6C89 /* SystemConfiguration.framework */; };
+		DFD7C40718293DD700CB6C89 /* MedListViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = DFD7C40518293DD700CB6C89 /* MedListViewController.xib */; };
+		DFD7C40B1829496E00CB6C89 /* signUpViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DFD7C4091829496E00CB6C89 /* signUpViewController.m */; };
+		DFD7C40C1829496E00CB6C89 /* signUpViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = DFD7C40A1829496E00CB6C89 /* signUpViewController.xib */; };
+		DFD7C4121829509300CB6C89 /* login.png in Resources */ = {isa = PBXBuildFile; fileRef = DFD7C4111829509300CB6C89 /* login.png */; };
+		DFD7C4141829514E00CB6C89 /* signUp.png in Resources */ = {isa = PBXBuildFile; fileRef = DFD7C4131829514E00CB6C89 /* signUp.png */; };
+		DFD7C41618295DB700CB6C89 /* registerBtn.png in Resources */ = {isa = PBXBuildFile; fileRef = DFD7C41518295DB700CB6C89 /* registerBtn.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		DF06E004183D0CD8000A06F1 /* MM-icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "MM-icon.png"; path = "../MM-icon.png"; sourceTree = "<group>"; };
+		DF06E006183D0CDC000A06F1 /* MM-icon-retina.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "MM-icon-retina.png"; path = "../MM-icon-retina.png"; sourceTree = "<group>"; };
+		DF06E008183D114B000A06F1 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Default.png; path = ../Default.png; sourceTree = "<group>"; };
+		DF181A18183462B70076AE22 /* medInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = medInfo.h; sourceTree = "<group>"; };
+		DF181A19183462B70076AE22 /* medInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = medInfo.m; sourceTree = "<group>"; };
+		DF181A1B183575C70076AE22 /* mapAnnotations.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = mapAnnotations.h; sourceTree = "<group>"; };
+		DF181A1C183575C70076AE22 /* mapAnnotations.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = mapAnnotations.m; sourceTree = "<group>"; };
+		DF2DFD7C182C34AD0038D366 /* Parse.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Parse.framework; path = myMedical/Parse.framework; sourceTree = "<group>"; };
+		DF2DFD7E182C35A80038D366 /* GoogleMaps.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GoogleMaps.framework; path = myMedical/GoogleMaps.framework; sourceTree = "<group>"; };
+		DF3AB4E7183D11F1005B86ED /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Default@2x.png"; path = "../Default@2x.png"; sourceTree = "<group>"; };
+		DF3AB4E9183D11F8005B86ED /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Default-568h@2x.png"; path = "../Default-568h@2x.png"; sourceTree = "<group>"; };
+		DF653BB6182B12B600A09924 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		DF653BB8182B12C000A09924 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		DF653BBA182B12CD00A09924 /* CoreText.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreText.framework; path = System/Library/Frameworks/CoreText.framework; sourceTree = SDKROOT; };
+		DF653BBC182B12D500A09924 /* GLKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GLKit.framework; path = System/Library/Frameworks/GLKit.framework; sourceTree = SDKROOT; };
+		DF653BBE182B12DD00A09924 /* ImageIO.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ImageIO.framework; path = System/Library/Frameworks/ImageIO.framework; sourceTree = SDKROOT; };
+		DF653BC0182B12EB00A09924 /* libc++.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = "libc++.dylib"; path = "usr/lib/libc++.dylib"; sourceTree = SDKROOT; };
+		DF653BC2182B12F600A09924 /* libicucore.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libicucore.dylib; path = usr/lib/libicucore.dylib; sourceTree = SDKROOT; };
+		DF653BC4182B12FF00A09924 /* libz.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libz.dylib; path = usr/lib/libz.dylib; sourceTree = SDKROOT; };
+		DF653BC6182B130800A09924 /* OpenGLES.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGLES.framework; path = System/Library/Frameworks/OpenGLES.framework; sourceTree = SDKROOT; };
+		DF930B45182A92CC007F5727 /* 74-location.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "74-location.png"; sourceTree = "<group>"; };
+		DF930B47182AAC5A007F5727 /* addMedicationViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = addMedicationViewController.h; sourceTree = "<group>"; };
+		DF930B48182AAC5A007F5727 /* addMedicationViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = addMedicationViewController.m; sourceTree = "<group>"; };
+		DF930B49182AAC5A007F5727 /* addMedicationViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = addMedicationViewController.xib; sourceTree = "<group>"; };
+		DF930B4D182AAFCF007F5727 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		DF930B4F182ADDF2007F5727 /* medicationManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = medicationManager.h; sourceTree = "<group>"; };
+		DF930B50182ADDF2007F5727 /* medicationManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = medicationManager.m; sourceTree = "<group>"; };
+		DF9603CC18299E5500B13AA0 /* cancelBtn.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = cancelBtn.png; sourceTree = "<group>"; };
+		DF9603D21829B01100B13AA0 /* customCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = customCell.xib; sourceTree = "<group>"; };
+		DF9603D41829B08E00B13AA0 /* CustomMedicationCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomMedicationCell.h; sourceTree = "<group>"; };
+		DF9603D51829B08E00B13AA0 /* CustomMedicationCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomMedicationCell.m; sourceTree = "<group>"; };
+		DF9603D71829CE0C00B13AA0 /* medicationDetailsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = medicationDetailsViewController.h; sourceTree = "<group>"; };
+		DF9603D81829CE0C00B13AA0 /* medicationDetailsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = medicationDetailsViewController.m; sourceTree = "<group>"; };
+		DF9603D91829CE0C00B13AA0 /* medicationDetailsViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = medicationDetailsViewController.xib; sourceTree = "<group>"; };
+		DF9603E11829CE7000B13AA0 /* pharmacyViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = pharmacyViewController.h; sourceTree = "<group>"; };
+		DF9603E21829CE7000B13AA0 /* pharmacyViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = pharmacyViewController.m; sourceTree = "<group>"; };
+		DF9603E31829CE7000B13AA0 /* pharmacyViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = pharmacyViewController.xib; sourceTree = "<group>"; };
+		DF9603E7182A915700B13AA0 /* 10-medical.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "10-medical.png"; sourceTree = "<group>"; };
+		DFA50DD91830B0CE00C4501E /* medListControllerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = medListControllerViewController.h; sourceTree = "<group>"; };
+		DFA50DDA1830B0CE00C4501E /* medListControllerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = medListControllerViewController.m; sourceTree = "<group>"; };
+		DFA9402518FF02150074B646 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		DFD72C72183D12E200576ED6 /* MM-logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "MM-logo.png"; path = "../MM-logo.png"; sourceTree = "<group>"; };
+		DFD7C3C918293CF400CB6C89 /* myMedical.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = myMedical.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DFD7C3CC18293CF400CB6C89 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		DFD7C3CE18293CF400CB6C89 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		DFD7C3D018293CF400CB6C89 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		DFD7C3D418293CF400CB6C89 /* myMedical-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "myMedical-Info.plist"; sourceTree = "<group>"; };
+		DFD7C3D618293CF400CB6C89 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		DFD7C3D818293CF400CB6C89 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		DFD7C3DA18293CF400CB6C89 /* myMedical-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "myMedical-Prefix.pch"; sourceTree = "<group>"; };
+		DFD7C3DB18293CF400CB6C89 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		DFD7C3DC18293CF500CB6C89 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		DFD7C3E418293CF500CB6C89 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		DFD7C3E518293CF500CB6C89 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		DFD7C3E818293CF500CB6C89 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController.xib; sourceTree = "<group>"; };
+		DFD7C3F118293D5800CB6C89 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		DFD7C3F318293D5E00CB6C89 /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
+		DFD7C3F518293D6900CB6C89 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		DFD7C3F718293D6F00CB6C89 /* libz.1.1.3.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libz.1.1.3.dylib; path = usr/lib/libz.1.1.3.dylib; sourceTree = SDKROOT; };
+		DFD7C3F918293D7600CB6C89 /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
+		DFD7C3FB18293D7C00CB6C89 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		DFD7C3FD18293D8300CB6C89 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		DFD7C3FF18293D8900CB6C89 /* StoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = StoreKit.framework; path = System/Library/Frameworks/StoreKit.framework; sourceTree = SDKROOT; };
+		DFD7C40118293D8F00CB6C89 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		DFD7C40518293DD700CB6C89 /* MedListViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MedListViewController.xib; sourceTree = "<group>"; };
+		DFD7C4081829496E00CB6C89 /* signUpViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = signUpViewController.h; sourceTree = "<group>"; };
+		DFD7C4091829496E00CB6C89 /* signUpViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = signUpViewController.m; sourceTree = "<group>"; };
+		DFD7C40A1829496E00CB6C89 /* signUpViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = signUpViewController.xib; sourceTree = "<group>"; };
+		DFD7C4111829509300CB6C89 /* login.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = login.png; sourceTree = "<group>"; };
+		DFD7C4131829514E00CB6C89 /* signUp.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = signUp.png; sourceTree = "<group>"; };
+		DFD7C41518295DB700CB6C89 /* registerBtn.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = registerBtn.png; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DFD7C3C618293CF400CB6C89 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DF2DFD7F182C35A80038D366 /* GoogleMaps.framework in Frameworks */,
+				DF2DFD7D182C34AD0038D366 /* Parse.framework in Frameworks */,
+				DFD7C40218293D8F00CB6C89 /* SystemConfiguration.framework in Frameworks */,
+				DF653BC7182B130800A09924 /* OpenGLES.framework in Frameworks */,
+				DF653BC5182B12FF00A09924 /* libz.dylib in Frameworks */,
+				DF653BC3182B12F600A09924 /* libicucore.dylib in Frameworks */,
+				DF653BC1182B12EB00A09924 /* libc++.dylib in Frameworks */,
+				DF653BBF182B12DD00A09924 /* ImageIO.framework in Frameworks */,
+				DF653BBD182B12D500A09924 /* GLKit.framework in Frameworks */,
+				DF653BBB182B12CD00A09924 /* CoreText.framework in Frameworks */,
+				DF653BB9182B12C000A09924 /* CoreData.framework in Frameworks */,
+				DF653BB7182B12B600A09924 /* AVFoundation.framework in Frameworks */,
+				DF930B4E182AAFCF007F5727 /* MapKit.framework in Frameworks */,
+				DFD7C40018293D8900CB6C89 /* StoreKit.framework in Frameworks */,
+				DFD7C3FE18293D8300CB6C89 /* Security.framework in Frameworks */,
+				DFD7C3FC18293D7C00CB6C89 /* QuartzCore.framework in Frameworks */,
+				DFD7C3FA18293D7600CB6C89 /* MobileCoreServices.framework in Frameworks */,
+				DFD7C3F818293D6F00CB6C89 /* libz.1.1.3.dylib in Frameworks */,
+				DFD7C3F618293D6900CB6C89 /* CoreLocation.framework in Frameworks */,
+				DFD7C3F418293D5E00CB6C89 /* CFNetwork.framework in Frameworks */,
+				DFD7C3F218293D5800CB6C89 /* AudioToolbox.framework in Frameworks */,
+				DFD7C3CD18293CF400CB6C89 /* UIKit.framework in Frameworks */,
+				DFD7C3CF18293CF400CB6C89 /* Foundation.framework in Frameworks */,
+				DFD7C3D118293CF400CB6C89 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DF181A1E1835A4430076AE22 /* Annotations */ = {
+			isa = PBXGroup;
+			children = (
+				DF181A1B183575C70076AE22 /* mapAnnotations.h */,
+				DF181A1C183575C70076AE22 /* mapAnnotations.m */,
+			);
+			name = Annotations;
+			path = ..;
+			sourceTree = "<group>";
+		};
+		DF181A1F1835A4570076AE22 /* MedInfo */ = {
+			isa = PBXGroup;
+			children = (
+				DF181A18183462B70076AE22 /* medInfo.h */,
+				DF181A19183462B70076AE22 /* medInfo.m */,
+			);
+			name = MedInfo;
+			path = ..;
+			sourceTree = "<group>";
+		};
+		DF181A201835A46C0076AE22 /* Medication Manager */ = {
+			isa = PBXGroup;
+			children = (
+				DF930B4F182ADDF2007F5727 /* medicationManager.h */,
+				DF930B50182ADDF2007F5727 /* medicationManager.m */,
+			);
+			name = "Medication Manager";
+			sourceTree = "<group>";
+		};
+		DF930B4C182AAC6D007F5727 /* Add Medication */ = {
+			isa = PBXGroup;
+			children = (
+				DF930B47182AAC5A007F5727 /* addMedicationViewController.h */,
+				DF930B48182AAC5A007F5727 /* addMedicationViewController.m */,
+				DF930B49182AAC5A007F5727 /* addMedicationViewController.xib */,
+			);
+			name = "Add Medication";
+			sourceTree = "<group>";
+		};
+		DF9603DC1829CE2600B13AA0 /* Med Details */ = {
+			isa = PBXGroup;
+			children = (
+				DF9603D71829CE0C00B13AA0 /* medicationDetailsViewController.h */,
+				DF9603D81829CE0C00B13AA0 /* medicationDetailsViewController.m */,
+				DF9603D91829CE0C00B13AA0 /* medicationDetailsViewController.xib */,
+			);
+			name = "Med Details";
+			sourceTree = "<group>";
+		};
+		DF9603DD1829CE3300B13AA0 /* Med List View */ = {
+			isa = PBXGroup;
+			children = (
+				DFA50DD91830B0CE00C4501E /* medListControllerViewController.h */,
+				DFA50DDA1830B0CE00C4501E /* medListControllerViewController.m */,
+				DFD7C40518293DD700CB6C89 /* MedListViewController.xib */,
+			);
+			name = "Med List View";
+			sourceTree = "<group>";
+		};
+		DF9603DE1829CE3E00B13AA0 /* Custom Cell */ = {
+			isa = PBXGroup;
+			children = (
+				DF9603D41829B08E00B13AA0 /* CustomMedicationCell.h */,
+				DF9603D51829B08E00B13AA0 /* CustomMedicationCell.m */,
+				DF9603D21829B01100B13AA0 /* customCell.xib */,
+			);
+			name = "Custom Cell";
+			sourceTree = "<group>";
+		};
+		DF9603DF1829CE4C00B13AA0 /* Login View */ = {
+			isa = PBXGroup;
+			children = (
+				DFD7C3E418293CF500CB6C89 /* ViewController.h */,
+				DFD7C3E518293CF500CB6C89 /* ViewController.m */,
+				DFD7C3E718293CF500CB6C89 /* ViewController.xib */,
+			);
+			name = "Login View";
+			sourceTree = "<group>";
+		};
+		DF9603E01829CE5500B13AA0 /* Sign Up View */ = {
+			isa = PBXGroup;
+			children = (
+				DFD7C4081829496E00CB6C89 /* signUpViewController.h */,
+				DFD7C4091829496E00CB6C89 /* signUpViewController.m */,
+				DFD7C40A1829496E00CB6C89 /* signUpViewController.xib */,
+			);
+			name = "Sign Up View";
+			sourceTree = "<group>";
+		};
+		DF9603E61829CE8000B13AA0 /* Pharmacy Locator */ = {
+			isa = PBXGroup;
+			children = (
+				DF9603E11829CE7000B13AA0 /* pharmacyViewController.h */,
+				DF9603E21829CE7000B13AA0 /* pharmacyViewController.m */,
+				DF9603E31829CE7000B13AA0 /* pharmacyViewController.xib */,
+			);
+			name = "Pharmacy Locator";
+			sourceTree = "<group>";
+		};
+		DFD7C3C018293CF300CB6C89 = {
+			isa = PBXGroup;
+			children = (
+				DFD7C3D218293CF400CB6C89 /* myMedical */,
+				DFD7C3CB18293CF400CB6C89 /* Frameworks */,
+				DFD7C3CA18293CF400CB6C89 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DFD7C3CA18293CF400CB6C89 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DFD7C3C918293CF400CB6C89 /* myMedical.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DFD7C3CB18293CF400CB6C89 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				DF2DFD7C182C34AD0038D366 /* Parse.framework */,
+				DF2DFD7E182C35A80038D366 /* GoogleMaps.framework */,
+				DF653BC6182B130800A09924 /* OpenGLES.framework */,
+				DF653BC4182B12FF00A09924 /* libz.dylib */,
+				DF653BC2182B12F600A09924 /* libicucore.dylib */,
+				DF653BC0182B12EB00A09924 /* libc++.dylib */,
+				DF653BBE182B12DD00A09924 /* ImageIO.framework */,
+				DF653BBC182B12D500A09924 /* GLKit.framework */,
+				DF653BBA182B12CD00A09924 /* CoreText.framework */,
+				DF653BB8182B12C000A09924 /* CoreData.framework */,
+				DF653BB6182B12B600A09924 /* AVFoundation.framework */,
+				DF930B4D182AAFCF007F5727 /* MapKit.framework */,
+				DFD7C40118293D8F00CB6C89 /* SystemConfiguration.framework */,
+				DFD7C3FF18293D8900CB6C89 /* StoreKit.framework */,
+				DFD7C3FD18293D8300CB6C89 /* Security.framework */,
+				DFD7C3FB18293D7C00CB6C89 /* QuartzCore.framework */,
+				DFD7C3F918293D7600CB6C89 /* MobileCoreServices.framework */,
+				DFD7C3F718293D6F00CB6C89 /* libz.1.1.3.dylib */,
+				DFD7C3F518293D6900CB6C89 /* CoreLocation.framework */,
+				DFD7C3F318293D5E00CB6C89 /* CFNetwork.framework */,
+				DFD7C3F118293D5800CB6C89 /* AudioToolbox.framework */,
+				DFD7C3CC18293CF400CB6C89 /* UIKit.framework */,
+				DFD7C3CE18293CF400CB6C89 /* Foundation.framework */,
+				DFD7C3D018293CF400CB6C89 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		DFD7C3D218293CF400CB6C89 /* myMedical */ = {
+			isa = PBXGroup;
+			children = (
+				DFD7C3DB18293CF400CB6C89 /* AppDelegate.h */,
+				DFD7C3DC18293CF500CB6C89 /* AppDelegate.m */,
+				DF181A1F1835A4570076AE22 /* MedInfo */,
+				DF181A1E1835A4430076AE22 /* Annotations */,
+				DF930B4C182AAC6D007F5727 /* Add Medication */,
+				DF9603E61829CE8000B13AA0 /* Pharmacy Locator */,
+				DF9603DE1829CE3E00B13AA0 /* Custom Cell */,
+				DF9603DD1829CE3300B13AA0 /* Med List View */,
+				DF9603DC1829CE2600B13AA0 /* Med Details */,
+				DF9603DF1829CE4C00B13AA0 /* Login View */,
+				DF9603E01829CE5500B13AA0 /* Sign Up View */,
+				DFD7C3D318293CF400CB6C89 /* Supporting Files */,
+				DF181A201835A46C0076AE22 /* Medication Manager */,
+				DFA9402518FF02150074B646 /* Images.xcassets */,
+			);
+			path = myMedical;
+			sourceTree = "<group>";
+		};
+		DFD7C3D318293CF400CB6C89 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				DFD72C72183D12E200576ED6 /* MM-logo.png */,
+				DF3AB4E9183D11F8005B86ED /* Default-568h@2x.png */,
+				DF3AB4E7183D11F1005B86ED /* Default@2x.png */,
+				DF06E008183D114B000A06F1 /* Default.png */,
+				DF06E006183D0CDC000A06F1 /* MM-icon-retina.png */,
+				DF06E004183D0CD8000A06F1 /* MM-icon.png */,
+				DF930B45182A92CC007F5727 /* 74-location.png */,
+				DF9603E7182A915700B13AA0 /* 10-medical.png */,
+				DF9603CC18299E5500B13AA0 /* cancelBtn.png */,
+				DFD7C41518295DB700CB6C89 /* registerBtn.png */,
+				DFD7C4131829514E00CB6C89 /* signUp.png */,
+				DFD7C4111829509300CB6C89 /* login.png */,
+				DFD7C3D418293CF400CB6C89 /* myMedical-Info.plist */,
+				DFD7C3D518293CF400CB6C89 /* InfoPlist.strings */,
+				DFD7C3D818293CF400CB6C89 /* main.m */,
+				DFD7C3DA18293CF400CB6C89 /* myMedical-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DFD7C3C818293CF400CB6C89 /* myMedical */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DFD7C3EC18293CF500CB6C89 /* Build configuration list for PBXNativeTarget "myMedical" */;
+			buildPhases = (
+				DFD7C3C518293CF400CB6C89 /* Sources */,
+				DFD7C3C618293CF400CB6C89 /* Frameworks */,
+				DFD7C3C718293CF400CB6C89 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = myMedical;
+			productName = myMedical;
+			productReference = DFD7C3C918293CF400CB6C89 /* myMedical.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DFD7C3C118293CF400CB6C89 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = "Tristan Freeman";
+				TargetAttributes = {
+					DFD7C3C818293CF400CB6C89 = {
+						DevelopmentTeam = 38LX3DQCQ7;
+					};
+				};
+			};
+			buildConfigurationList = DFD7C3C418293CF400CB6C89 /* Build configuration list for PBXProject "myMedical" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = DFD7C3C018293CF300CB6C89;
+			productRefGroup = DFD7C3CA18293CF400CB6C89 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DFD7C3C818293CF400CB6C89 /* myMedical */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DFD7C3C718293CF400CB6C89 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DFD7C3D718293CF400CB6C89 /* InfoPlist.strings in Resources */,
+				DFD7C3E918293CF500CB6C89 /* ViewController.xib in Resources */,
+				DFD7C40718293DD700CB6C89 /* MedListViewController.xib in Resources */,
+				DFD7C40C1829496E00CB6C89 /* signUpViewController.xib in Resources */,
+				DFD7C4121829509300CB6C89 /* login.png in Resources */,
+				DFD7C4141829514E00CB6C89 /* signUp.png in Resources */,
+				DFD7C41618295DB700CB6C89 /* registerBtn.png in Resources */,
+				DF9603CD18299E5500B13AA0 /* cancelBtn.png in Resources */,
+				DF9603D31829B01100B13AA0 /* customCell.xib in Resources */,
+				DFA9402618FF02150074B646 /* Images.xcassets in Resources */,
+				DF9603DB1829CE0C00B13AA0 /* medicationDetailsViewController.xib in Resources */,
+				DF9603E51829CE7000B13AA0 /* pharmacyViewController.xib in Resources */,
+				DF9603E9182A915700B13AA0 /* 10-medical.png in Resources */,
+				DF930B46182A92CC007F5727 /* 74-location.png in Resources */,
+				DF930B4B182AAC5A007F5727 /* addMedicationViewController.xib in Resources */,
+				DF06E005183D0CD8000A06F1 /* MM-icon.png in Resources */,
+				DF06E007183D0CDC000A06F1 /* MM-icon-retina.png in Resources */,
+				DF06E009183D114B000A06F1 /* Default.png in Resources */,
+				DF3AB4E8183D11F1005B86ED /* Default@2x.png in Resources */,
+				DF3AB4EA183D11F8005B86ED /* Default-568h@2x.png in Resources */,
+				DFD72C73183D12E200576ED6 /* MM-logo.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DFD7C3C518293CF400CB6C89 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DFD7C3D918293CF400CB6C89 /* main.m in Sources */,
+				DFD7C3DD18293CF500CB6C89 /* AppDelegate.m in Sources */,
+				DFD7C3E618293CF500CB6C89 /* ViewController.m in Sources */,
+				DFD7C40B1829496E00CB6C89 /* signUpViewController.m in Sources */,
+				DF9603D61829B08E00B13AA0 /* CustomMedicationCell.m in Sources */,
+				DF9603DA1829CE0C00B13AA0 /* medicationDetailsViewController.m in Sources */,
+				DF9603E41829CE7000B13AA0 /* pharmacyViewController.m in Sources */,
+				DF930B4A182AAC5A007F5727 /* addMedicationViewController.m in Sources */,
+				DF930B51182ADDF2007F5727 /* medicationManager.m in Sources */,
+				DFA50DDB1830B0CE00C4501E /* medListControllerViewController.m in Sources */,
+				DF181A1A183462B70076AE22 /* medInfo.m in Sources */,
+				DF181A1D183575C70076AE22 /* mapAnnotations.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		DFD7C3D518293CF400CB6C89 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DFD7C3D618293CF400CB6C89 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		DFD7C3E718293CF500CB6C89 /* ViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DFD7C3E818293CF500CB6C89 /* en */,
+			);
+			name = ViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		DFD7C3EA18293CF500CB6C89 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		DFD7C3EB18293CF500CB6C89 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DFD7C3ED18293CF500CB6C89 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/../../Downloads\"",
+					"\"$(SRCROOT)/../../Downloads/GoogleMaps-iOS-1.5.0\"",
+					"\"$(SRCROOT)/myMedical\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "myMedical/myMedical-Prefix.pch";
+				INFOPLIST_FILE = "myMedical/myMedical-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				OTHER_LDFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		DFD7C3EE18293CF500CB6C89 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/../../Downloads\"",
+					"\"$(SRCROOT)/../../Downloads/GoogleMaps-iOS-1.5.0\"",
+					"\"$(SRCROOT)/myMedical\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "myMedical/myMedical-Prefix.pch";
+				INFOPLIST_FILE = "myMedical/myMedical-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				OTHER_LDFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DFD7C3C418293CF400CB6C89 /* Build configuration list for PBXProject "myMedical" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DFD7C3EA18293CF500CB6C89 /* Debug */,
+				DFD7C3EB18293CF500CB6C89 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DFD7C3EC18293CF500CB6C89 /* Build configuration list for PBXNativeTarget "myMedical" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DFD7C3ED18293CF500CB6C89 /* Debug */,
+				DFD7C3EE18293CF500CB6C89 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DFD7C3C118293CF400CB6C89 /* Project object */;
+}
